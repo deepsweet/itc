@@ -1,0 +1,43 @@
+{
+  "name": "itc",
+  "version": "0.0.2",
+  "description": "iTunes ITC files parser and covers extractor",
+  "keywords": [ "itunes", "itc" ],
+  "homepage": "https://github.com/deepsweet/itc",
+  "repository": "deepsweet/itc",
+  "author": "Kir Belevich <kir@soulshine.in>",
+  "files": [
+    "build/",
+    "LICENSE"
+  ],
+  "main": "build/index.js",
+  "dependencies": {
+    "babel-runtime": "5.8.x",
+    "pngjs2": "1.2.x"
+  },
+  "devDependencies": {
+    "husky": "0.10.x",
+    "rimraf": "2.4.x",
+
+    "eslint": "1.6.x",
+    "babel-eslint": "4.1.x",
+    "eslint-plugin-babel": "2.1.x",
+    "babel": "5.8.x",
+    "babel-core": "5.8.x"
+  },
+  "scripts": {
+    "prebuild": "rimraf build/",
+    "build": "babel lib/ -d build/",
+    "dev": "npm run build -- -w",
+
+    "lint": "eslint lib/",
+
+    "prepush": "npm run lint",
+    "prepublish": "npm run build"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "npm": ">=2.7.0"
+  },
+  "license": "MIT"
+}
