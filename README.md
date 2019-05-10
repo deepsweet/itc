@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/itc.svg?style=flat-square)](https://www.npmjs.com/package/itc)
 [![travis](http://img.shields.io/travis/deepsweet/itc.svg?style=flat-square)](https://travis-ci.org/deepsweet/itc)
-[![deps](http://img.shields.io/david/deepsweet/itc.svg?style=flat-square)](https://david-dm.org/deepsweet/itc)
+[![deps](http://img.shields.io/david/deepsweet/itc.svg?style=flat-square)](https://david-dm.org/deepsweet/itc) [![Greenkeeper badge](https://badges.greenkeeper.io/deepsweet/itc.svg)](https://greenkeeper.io/)
 
 WIP.
 
